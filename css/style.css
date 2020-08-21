@@ -1,0 +1,102 @@
+@import url(//db.onlinewebfonts.com/c/0a6ee448d1bd65c56f6cf256a7c6f20a?family=Bahnschrift);
+body{
+    background-color: #e5e5e5;
+    font-family: Arial,
+    sans-serif;
+}
+.foto{
+    width: 35px;
+}
+
+.nav-foto{
+    position: absolute;
+    right: 0;
+}
+.list-group-item-2{
+    position: relative;
+    display: block;
+    padding: 0.2rem 0.5rem;
+    border: 0;
+}
+
+hr {
+    border-top: 1px solid rgb(255, 255, 255);
+}
+.link {
+    text-decoration: none;
+}
+.card-bg-1{
+    background-image: linear-gradient(#14EDFD, #0287FF);
+    color: white;
+    
+}
+
+.breadcrumb{
+    background-color: #e5e5e5;
+    margin-bottom: -30px;
+}
+.bg-side{
+    background-color: #0287FF;
+    
+}
+.bg-side:hover{
+    background-color: #0287FF;
+}
+
+.card {
+    border-radius: 16px;
+    margin-top: 1.5rem;
+    border: 0;
+    box-shadow: 0px 6px 6px 0px #888888;
+    
+}
+.card .card-title{
+    color: black;
+}
+.card a{
+    color: rgb(94, 94, 94);
+    text-decoration: none;
+}
+.footer{
+    background-color: rgb(206, 206, 206);
+}
+.active{
+    color:white;
+}
+.list-group-item a,.list-group-item h6 {
+    color: rgb(255, 255, 255);
+}
+.form-control{
+    border-radius: 20px;
+}
+.btn-custom-1{
+    border-radius: 20px;
+}
+.card img{
+    border-radius: 16px 16px 0 0;
+}
+
+
+/* hd */
+@media (min-width: 768px) {
+    .btn-custom-1 {
+        margin-top: 32px;
+    }
+    .scroll {
+        position: fixed;
+        top: 0;
+        width: 10rem;
+        right: 5px;
+    }
+}
+
+/* dekstop */
+@media (min-width: 1200px) {
+    .scroll {
+        position: fixed;
+        top: 0;
+        width: 18rem;
+        right: 5px;
+    }
+}
+
